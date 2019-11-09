@@ -2,6 +2,7 @@
 	"containerDefinitions": [
 		{
 			"command":["Akshaya","Kumar","Rawat"],
+			"environment":["-Xmx64M"],
 			"logConfiguration": {
 				"logDriver": "awslogs",
 				"options": {
