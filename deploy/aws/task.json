@@ -1,6 +1,7 @@
 {
 	"containerDefinitions": [
 		{
+			"command":["Akshaya","Kumar","Rawat"],
 			"logConfiguration": {
 				"logDriver": "awslogs",
 				"options": {
