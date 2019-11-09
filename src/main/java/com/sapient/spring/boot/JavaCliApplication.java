@@ -20,7 +20,6 @@ public class JavaCliApplication implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 		Arrays.asList(args).forEach(logger::error);
-		System.getenv().forEach((key,value)->{logger.error("Environment {}={}",key,value);});
 		System.getProperties().forEach((key,value)->{logger.error("Properties {}={}",key,value);});
 	}
 }
