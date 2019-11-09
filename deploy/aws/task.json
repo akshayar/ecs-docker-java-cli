@@ -2,7 +2,8 @@
 	"containerDefinitions": [
 		{
 			"command":["Akshaya","Kumar","Rawat"],
-			"environment":[{"name":"JAVA_OPTS","value":"-Xmx128M -Dproperty=fromTask"}],
+			"environment":[{"name":"JAVA_OPTS","value":"-Xmx128M -Dproperty=fromTask"},
+							{"name":"JAVA_ARGS","value":"This is from task"}],
 			"logConfiguration": {
 				"logDriver": "awslogs",
 				"options": {
