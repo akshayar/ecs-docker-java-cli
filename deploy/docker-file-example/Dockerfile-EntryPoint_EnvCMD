@@ -1,6 +1,5 @@
 FROM openjdk:8-jdk-alpine
-COPY app.jar /app/app.jar
-workdir /app
+COPY app.jar /app.jar
 ENV JAVA_OPTS -Xmx64M
 ENV JAVA_ARGS Args Docker File ENV
 ENTRYPOINT ["sh","-c","java $JAVA_OPTS -jar app.jar"]
