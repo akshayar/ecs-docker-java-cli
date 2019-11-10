@@ -20,6 +20,6 @@ public class JavaCliApplication implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 		Arrays.asList(args).forEach(logger::error);
-		System.getProperties().forEach((key,value)->{logger.error("Properties {}={}",key,value);});
+		logger.error("Proerties:"+System.getProperties());
 	}
 }
